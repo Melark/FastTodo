@@ -1,0 +1,48 @@
+:root {
+  --clr-accent: #36454f;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5em;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: rgba($color: #fffdfd, $alpha: 0.5);
+  border-radius: 25px;
+  justify-content: center;
+  margin: 2em 3em;
+  padding: 0 5em 3em 5em;
+  flex: 1;
+
+  h1 {
+    color: var(--clr-accent);
+    margin-bottom: 2em;
+  }
+
+  button {
+    margin-top: 2em;
+    padding: 0.35em 2em;
+    font-size: 1em;
+    border: none;
+    border-radius: 15px;
+    background: var(--clr-accent);
+    color: white;
+  }
+}
+
+.illustration {
+  margin: 3em;
+  padding: 5em;
+  flex: 1;
+}
